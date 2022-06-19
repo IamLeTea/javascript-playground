@@ -32,5 +32,5 @@ const setAsyncTimeout = (method, timer = 0) => {
 
 const result3 = await setAsyncTimeout(() => {
   return 3000;
-}, 1000);
+}, 1000); //?
 console.log(result3);

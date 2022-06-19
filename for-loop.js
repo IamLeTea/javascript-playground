@@ -1,8 +1,7 @@
-let result;
-const array = [1, 2, 3, 4, 5];
+const array = ["a", "b", "c", "d", "e"];
 
-for (let i = 0; i < array.length; i++) {
-  console.log(array[i]);
+for (let index = 0; index < array.length; index++) {
+  console.log(array[index]);
 }
 
 for (let item in array) {
